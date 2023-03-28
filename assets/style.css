@@ -1,0 +1,129 @@
+:root {
+  --border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: pink;
+}
+
+h1,
+h3,
+h4,
+h5 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+h3,
+h4 {
+  text-decoration-line: underline;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+nav li{
+  padding: 5px;
+}
+nav a:hover {
+  background-color: blueviolet;
+}
+footer {
+  margin: auto;
+  width: 70%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.work {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.job {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 1 1;
+  box-shadow: 10px 10px 5px pink;
+  margin: 20px;
+}
+
+.job > header {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.job > p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.job > img {
+  width: 100%;
+}
+
+.about-me-image {
+  width: 30%;
+}
+.about-me-image img {
+  width: 100%;
+}
+
+.cardrow {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#moejob {
+  flex: 3 1;
+  width: 80%;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 576px) {
+  nav ul {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 0px;
+  }
+  .work {
+    padding: 10px;
+  }
+  .cardrow {
+    flex-flow: column nowrap;
+  }
+  .job{
+    margin: 8px;
+  }
+}
