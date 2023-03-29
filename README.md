@@ -4,6 +4,10 @@
 
  This portfolio acts as a single-stop portal that illustrates projects and applications. It contains an 'about me' section that displays an image, in addition to contact information and an external link to view a resume.
 
+ ![regular-view](assets/Images/screenshot-large.png)
+ ![responsive-medium](../../Images/screenshot-medium.png)
+ ![smallest-phone](../../Images/screenshot-small.png)
+
 ## Portfolio Installation
 
 N/A
