@@ -6,9 +6,9 @@
 
  ![regular-view](assets/Images/screenshot-large.png)
 
- ![responsive-medium](../../Images/screenshot-medium.png)
+![responsive-medium](assets/Images/screenshot-medium.png)
  
- ![smallest-phone](../../Images/screenshot-small.png)
+![smallest-phone](assets/Images/screenshot-small.png)
 
 ## Portfolio Installation
 
